@@ -4,6 +4,7 @@ This project demonstrates the integration of **CometChat React UI Kit** in a mod
 
 ---
 
+
 ## 🚀 Features
 
 - 🔧 React + TypeScript (CRA)
@@ -13,6 +14,7 @@ This project demonstrates the integration of **CometChat React UI Kit** in a mod
 - 📱 Fully responsive CometChat UI
 
 ---
+
 
 ## 📁 Project Structure
 
@@ -32,6 +34,7 @@ cometchat-ts-react-ui/
 ```
 
 ---
+
 
 ## 🔐 Environment Variables
 
@@ -73,16 +76,21 @@ Logs in test user from .env (REACT_APP_COMETCHAT_UID)
 
 Renders full <CometChatUI /> in App.tsx using a CometChatProvider
 
+
+
 ## 🛠️ Issues Faced During Implementation
 
 - Initially, the project was set up using **React with JavaScript**, while the CometChat UI Kit documentation and examples were designed for **TypeScript**.
 - This caused compatibility issues and confusion during setup and usage of typed components from the UI Kit.
+
+
 
 ## ✅ How I Resolved It
 
 - I created a **new React project using TypeScript** with the CRA TypeScript template.
 - Reinstalled all required dependencies (`@cometchat/chat-uikit-react`) and followed the documented steps carefully for TypeScript integration.
 - After aligning with the documentation, the CometChat UI Kit was successfully integrated.
+
 
 
 ## 📸 Screenshots
